@@ -1,0 +1,35 @@
+{
+  "name": "autemrerum",
+  "version": "1.0.0",
+  "description": "This creates report based on templates Html",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacintheSchuster/autemrerum.git"
+  },
+  "keywords": [
+    "autem",
+    "velit"
+  ],
+  "author": "KirstinThiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacintheSchuster/autemrerum.git/issues"
+  },
+  "homepage": "https://github.com/JacintheSchuster/autemrerum.git",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "html-to-pdfmake": "^2.3.8",
+    "jsdom": "^19.0.0",
+    "paper-size": "^1.1.0",
+    "pdfmake": "^0.2.4"
+  },
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "@types/html-to-pdfmake": "^2.1.0",
+    "@types/pdfmake": "^0.1.19",
+    "typescript": "^4.7.4"
+  }
+}
